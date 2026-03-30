@@ -1,15 +1,16 @@
 import { Github, ExternalLink } from "lucide-react";
+import myImage from "../assets/YoutubeHomepage.png";
 
 const projects = [
   {
-    title: "Blog Management System",
+    title: "Student-Teacher Portal",
     description:
-      "A full-stack MERN blog with authentication, CRUD operations, and a responsive UI.",
-    stack: ["React", "Node.js", "Express", "MongoDB"],
+      "A full-stack Student–Teacher Portal web application designed to manage academic activities efficiently.",
+    stack: ["React", "Node.js", "Express", "Postgre SQL"],
     image:
       "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/Rohan-218/Blog-App",
-    liveUrl: "https://blog-app-im5z-f5w2j5jyq-raghuls-projects-bf0226ce.vercel.app",
+    githubUrl: "https://github.com/Rohan-218/Student-Teacher-Portal.git",
+    liveUrl: "https://student-teacher-portal-azure.vercel.app",
   },
   {
     title: "RecipeHub",
@@ -22,14 +23,13 @@ const projects = [
     liveUrl: "#",
   },
   {
-    title: "Weather App",
+    title: "Youtube Homepage Clone",
     description:
-      "Displays real-time weather data using the OpenWeatherMap API and features location-based search.",
-    stack: ["JavaScript", "HTML/CSS", "API"],
-    image:
-      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/Rohan-218/Weather-App",
-    liveUrl: "https://weather-app-alpha-five-11.vercel.app",
+      "A responsive clone of the YouTube homepage with a modern design and smooth animations.",
+    stack: ["Javascript", "HTML", "CSS"],
+    image: myImage,
+    githubUrl: "https://github.com/Rohan-218/Youtube-Homepage-Clone.git",
+    liveUrl: "https://rohan-218.github.io/Youtube-Homepage-Clone",
   },
   {
     title: "E-Commerce UI",
