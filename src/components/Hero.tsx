@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Briefcase, Mail, Github, Linkedin } from "lucide-react";
 import { useEffect, useState } from "react";
+import myProfile from "../assets/profile.jpeg";
 
 const roles = [
   "Full Stack Developer",
@@ -111,7 +112,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-white/10 rounded-full blur-xl sm:blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
             <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-secondary/50 shadow-xl group-hover:shadow-2xl transition-all duration-500">
               <img
-                src="/src/assets/profile.jpeg"
+                src={myProfile}
                 alt="Rohan Tomar"
                 className="w-full h-full object-cover object-top"
               />

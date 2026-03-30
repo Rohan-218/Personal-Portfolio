@@ -1,5 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
-import myImage from "../assets/YoutubeHomepage.png";
+import myProject from "../assets/YoutubeHomepage.png";
 
 const projects = [
   {
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A responsive clone of the YouTube homepage with a modern design and smooth animations.",
     stack: ["Javascript", "HTML", "CSS"],
-    image: myImage,
+    image: myProject,
     githubUrl: "https://github.com/Rohan-218/Youtube-Homepage-Clone.git",
     liveUrl: "https://rohan-218.github.io/Youtube-Homepage-Clone",
   },
