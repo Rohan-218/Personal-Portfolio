@@ -1,6 +1,7 @@
 import { motion, Variants } from "framer-motion";
 import { Briefcase, GraduationCap, Cloud, Database, Code2, BookOpen, Award, Globe, Monitor } from "lucide-react";
 import { FaReact, FaAws, FaPython } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 import { Card } from "@/components/ui/card";
 
 const experience = [
@@ -34,25 +35,21 @@ const education = [
 ];
 
 const certifications = [
-  "AWS Academy Cloud Security Foundations",
-  "MernStack – Udemy",
-  "Introduction to IoT – NPTEL",
-  "MongoDB Basic & Document Mode – MongoDB",
-  "Python & C Programming – Udemy",
-  "Full Stack Internship – Arjun Vision Tech Solutions, Edureka",
-  "React Advanced – Udemy",
-  "Responsive Web Design – freeCodeCamp"
+  "Google CyeberSecurity – Coursera(Google)",
+  "SQL – HackerRank",
+  "Python – Coursera",
+  "Web Developer Internship – Memorres Digital Private Limited",
+  "JavaScript – Udemy",
+  "Meta Back-End Developer – Coursera(Meta)"
 ];
 
 const certificationIcons = [
-  <Cloud className="text-accent w-6 h-6" />, // AWS
-  <FaReact className="text-accent w-6 h-6" />, // MernStack
-  <BookOpen className="text-accent w-6 h-6" />, // IoT
-  <Database className="text-accent w-6 h-6" />, // MongoDB
-  <FaPython className="text-accent w-6 h-6" />, // Python & C
+  <Cloud className="text-accent w-6 h-6" />, // CyberSecurity
+  <Database className="text-accent w-6 h-6" />, // QL
+  <FaPython className="text-accent w-6 h-6" />, // Python
   <Award className="text-accent w-6 h-6" />, // Internship
-  <FaReact className="text-accent w-6 h-6" />, // React Advanced
-  <Monitor className="text-accent w-6 h-6" />, // Responsive Web Design
+  <SiJavascript className="text-accent w-6 h-6" />, // JavaScript
+  <Monitor className="text-accent w-6 h-6" />, // Meta Back-End Developer
 ];
 
 // Compatible Framer Motion variants
