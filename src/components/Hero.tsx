@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import myProfile from "../assets/profile.jpeg";
 
 const roles = [
-  "Full Stack Developer",
-  "System Designer",
+  "Backend Developer",
+  "CyberSecurity Enthusiast",
   "Python Developer"
 ];
 

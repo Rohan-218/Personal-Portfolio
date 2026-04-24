@@ -4,9 +4,9 @@ import { Card } from "@/components/ui/card";
 
 const skills = [
   { name: "Problem Solver", icon: <Code2 className="w-5 h-5" />, description: "Analytical thinking and efficient solutions" },
-  { name: "Backend Enthusiast", icon: <Briefcase className="w-5 h-5" />, description: "Robust API design and database optimization" },
-  { name: "MERN & PERN Developer", icon: <Code2 className="w-5 h-5" />, description: "Full-stack development with modern technologies" },
-  { name: "System Designer", icon: <Code2 className="w-5 h-5" />, description: "Architecting scalable and efficient systems" }
+  { name: "CyberSecurity Enthusiast", icon: <Briefcase className="w-5 h-5" />, description: "Passionate about security, vulnerability analysis, and best practices" },
+  { name: "Backend Developer", icon: <Code2 className="w-5 h-5" />, description: "Building scalable APIs and server-side applications" },
+  { name: "Python Developer", icon: <Code2 className="w-5 h-5" />, description: "Developing efficient scripts, automation, and backend systems" }
 ];
 
 const timeline = [
