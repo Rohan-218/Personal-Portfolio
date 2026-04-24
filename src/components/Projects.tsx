@@ -13,16 +13,6 @@ const projects = [
     liveUrl: "https://student-teacher-portal-azure.vercel.app",
   },
   {
-    title: "RecipeHub",
-    description:
-      "MERN application with JWT authentication, REST APIs, and search/pagination features.",
-    stack: ["React", "MongoDB", "JWT", "REST API"],
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "#",
-    liveUrl: "#",
-  },
-  {
     title: "Youtube Homepage Clone",
     description:
       "A responsive clone of the YouTube homepage with a modern design and smooth animations.",
@@ -32,13 +22,13 @@ const projects = [
     liveUrl: "https://rohan-218.github.io/Youtube-Homepage-Clone",
   },
   {
-    title: "E-Commerce UI",
+    title: "Python_Projects",
     description:
-      "A React-based frontend for an e-commerce site, with product listings, cart logic, and a responsive layout.",
-    stack: ["React", "Flexbox/Grid"],
+      "This repository contains beginner-level Python projects designed for novice Python coders to practice and improve their skills.",
+    stack: ["Python"],
     image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "#",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/Rohan-218/Python_Projects.git",
     liveUrl: "#",
   },
 ];
