@@ -9,7 +9,8 @@ const projects = [
     stack: ["Node.js", "Express", "MongoDB"],
     image:
       "https://plus.unsplash.com/premium_photo-1682511146140-d1f3687dec9f?q=80&w=1084&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git"
+    githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git",
+    liveUrl: "#",
   },
   {
     title: "Student-Teacher Portal",
