@@ -1,5 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
-import myProject from "../assets/YoutubeHomepage.png";
+import youtubeHomepage from "../assets/YoutubeHomepage.png";
 
 const projects = [
   {
@@ -8,8 +8,8 @@ const projects = [
       "A backend service for a ledger-based banking system built with Express, MongoDB, and JWT authentication.",
     stack: ["Node.js", "Express", "MongoDB"],
     image:
-      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git",
+      "https://plus.unsplash.com/premium_photo-1682511146140-d1f3687dec9f?q=80&w=1084&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git"
   },
   {
     title: "Student-Teacher Portal",
@@ -26,7 +26,7 @@ const projects = [
     description:
       "A responsive clone of the YouTube homepage with a modern design and smooth animations.",
     stack: ["Javascript", "HTML", "CSS"],
-    image: myProject,
+    image: youtubeHomepage,
     githubUrl: "https://github.com/Rohan-218/Youtube-Homepage-Clone.git",
     liveUrl: "https://rohan-218.github.io/Youtube-Homepage-Clone",
   },
