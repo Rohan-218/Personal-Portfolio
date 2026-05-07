@@ -3,6 +3,15 @@ import myProject from "../assets/YoutubeHomepage.png";
 
 const projects = [
   {
+    title: "Bank Transaction System",
+    description:
+      "A backend service for a ledger-based banking system built with Express, MongoDB, and JWT authentication.",
+    stack: ["Node.js", "Express", "MongoDB"],
+    image:
+      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git",
+  },
+  {
     title: "Student-Teacher Portal",
     description:
       "A full-stack Student–Teacher Portal web application designed to manage academic activities efficiently.",
