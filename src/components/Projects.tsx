@@ -13,14 +13,14 @@ const projects = [
     liveUrl: "#",
   },
   {
-    title: "Student-Teacher Portal",
+    title: "Collaborative Editor",
     description:
-      "A full-stack Student–Teacher Portal web application designed to manage academic activities efficiently.",
-    stack: ["React", "Node.js", "Express", "Postgre SQL"],
+      "A full-stack collaborative editing web application designed to facilitate real-time document collaboration.",
+    stack: ["React", "Node.js", "Express", "Socket.IO", "Docker"],
     image:
       "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/Rohan-218/Student-Teacher-Portal.git",
-    liveUrl: "https://student-teacher-portal-azure.vercel.app",
+    githubUrl: "https://github.com/Rohan-218/Collaborative-Editor",
+    liveUrl: "#",
   },
   {
     title: "Youtube Homepage Clone",
