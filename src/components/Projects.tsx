@@ -1,5 +1,7 @@
 import { Github, ExternalLink } from "lucide-react";
-import youtubeHomepage from "../assets/YoutubeHomepage.png";
+import youtubeHomepage from "../assets/youtubeHomepage.png";
+import fluke from "../assets/fluke.jpg";
+import lld from "../assets/lld-platform.png";
 
 const projects = [
   {
@@ -10,6 +12,24 @@ const projects = [
     image:
       "https://plus.unsplash.com/premium_photo-1682511146140-d1f3687dec9f?q=80&w=1084&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git",
+    liveUrl: "#",
+  },
+  {
+    title: "Fluke E-Commmerce",
+    description:
+      "A full-stack e-commerce web application built with React and Tailwind CSS, featuring product listings, category filters, product details, and a responsive shopping interface for a seamless shopping experience",
+    stack: ["React", "Node.js", "Express", "Tailwind CSS", "Docker"],
+    image: fluke,
+    githubUrl: "https://github.com/Rohan-218/E-Commmerce.git",
+    liveUrl: "#",
+  },
+  {
+    title: "LLD Practice Platform",
+    description:
+      "A full-stack low-level design (LLD) practice platform that lets users browse system design problems, submit designs, and receive evaluation feedback.",
+    stack: ["React", "Node.js", "Express", "MongoDB"],
+    image: lld,
+    githubUrl: "https://github.com/Rohan-218/LLD-Practice-Platform",
     liveUrl: "#",
   },
   {
