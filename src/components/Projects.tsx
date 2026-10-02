@@ -1,5 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
-import youtubeHomepage from "../assets/youtubeHomepage.png";
+import youtubeHomepage from "../assets/youtube-homepage.png";
 import fluke from "../assets/fluke.jpg";
 import lld from "../assets/lld-platform.png";
 
