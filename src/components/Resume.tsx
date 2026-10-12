@@ -9,7 +9,7 @@ const experience = [
     title: "WEB DEVELOPER INTERN",
     org: "MEMORRES DIGITAL PRIVATE LIMITED",
     description: "Built a full-stack Student Teacher Portal using React, Node.js, Express, and PostgreSQL. Implemented authentication and CRUD features.",
-    year: "July 2024 – Feb 2025",
+    year: "July 2024 – June 2025",
   },
 ];
 
