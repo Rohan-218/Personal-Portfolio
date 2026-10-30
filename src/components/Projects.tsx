@@ -5,6 +5,15 @@ import lld from "../assets/lld-platform.png";
 
 const projects = [
   {
+  title: "Fluke E-Commmerce",
+  description:"A full-stack e-commerce web application built with React, Node.js, Express, MongoDB, and Tailwind CSS, featuring product listings, authentication, shopping cart, order management, and a dedicated admin dashboard.",
+  stack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+  image: fluke,
+  githubUrl: "https://github.com/Rohan-218/Fluke-Clothings",
+  liveUrl: "https://fluke-clothing.vercel.app/",
+  adminUrl: "https://fluke-admin.vercel.app/",
+},
+  {
     title: "Bank Transaction System",
     description:
       "A backend service for a ledger-based banking system built with Express, MongoDB, and JWT authentication.",
@@ -12,15 +21,6 @@ const projects = [
     image:
       "https://plus.unsplash.com/premium_photo-1682511146140-d1f3687dec9f?q=80&w=1084&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     githubUrl: "https://github.com/Rohan-218/Bank_Transaction_System.git",
-    liveUrl: "#",
-  },
-  {
-    title: "Fluke E-Commmerce",
-    description:
-      "A full-stack e-commerce web application built with React and Tailwind CSS, featuring product listings, category filters, product details, and a responsive shopping interface for a seamless shopping experience",
-    stack: ["React", "Node.js", "Express", "Tailwind CSS", "Docker"],
-    image: fluke,
-    githubUrl: "https://github.com/Rohan-218/E-Commmerce.git",
     liveUrl: "#",
   },
   {
@@ -101,7 +101,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="mt-auto flex gap-3">
+                <div className="mt-auto flex flex-wrap gap-3">
                   <a
                     href={project.githubUrl}
                     target="_blank"
@@ -111,6 +111,7 @@ const Projects = () => {
                     <Github className="h-4 w-4" />
                     View Code
                   </a>
+
                   {project.liveUrl !== "#" && (
                     <a
                       href={project.liveUrl}
@@ -119,7 +120,19 @@ const Projects = () => {
                       className="inline-flex items-center gap-2 border border-primary text-primary px-4 py-2 rounded-lg font-medium hover:bg-primary hover:text-white transition-colors text-sm focus:outline-none"
                     >
                       <ExternalLink className="h-4 w-4" />
-                      Live Demo
+                      Website
+                    </a>
+                  )}
+
+                  {project.adminUrl && (
+                    <a
+                      href={project.adminUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 border border-primary text-primary px-4 py-2 rounded-lg font-medium hover:bg-primary hover:text-white transition-colors text-sm focus:outline-none"
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                      Admin Panel
                     </a>
                   )}
                 </div>
